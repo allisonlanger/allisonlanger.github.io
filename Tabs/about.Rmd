@@ -1,0 +1,6 @@
+---
+title: "About"
+output: html_document
+---
+
+I am a second year PhD Student in Developmental Psychology at Temple University, working with Dr. Peter Marshall. I am currently a National Science Foundation graduate research fellow working on projects related to the impact of technology on our social interactions (with other humans). For more info, here's my CV: 
