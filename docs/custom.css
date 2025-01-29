@@ -38,7 +38,7 @@ ul li {
 }
 
 #TOC a:hover {
-  color: #9fc4db !important;  /* Hover color (Tomato) */
+  color: #9fc4db !important;  /* Hover color
   text-decoration: none !important;  /* Adds underline on hover */
 }
 
