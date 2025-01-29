@@ -1,0 +1,50 @@
+/* css styles */
+
+<button type="button" class="btn btn-info">Info</button>
+
+
+#hero-heading .btn {
+    background-color: #29abe0; /* Info blue */
+    color: white; /* Text color */
+}
+
+#hero-heading .btn:hover {
+    background-color: #9fc4db; /* Darker blue on hover */
+}
+
+a {
+  color: #29abe0; /* Change link color to blue */
+  text-decoration: none; /* Remove underline */
+}
+
+a:hover {
+  color: #9fc4db; /* Darker color on hover */
+  text-decoration: none; /* Optional: Keep no underline */
+}
+
+body {
+    font-family: 'Garamond', sans-serif;
+  }
+  
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 20px; /* Adjust this if you want custom indentation */
+}
+
+ul li {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#TOC a:hover {
+  color: #9fc4db !important;  /* Hover color (Tomato) */
+  text-decoration: none !important;  /* Adds underline on hover */
+}
+
+#TOC {
+  position: sticky;
+  top: 20px;  /* Adjust this value to set how far from the top the TOC should appear */
+  z-index: 100; /* Keeps the TOC on top of other content */
+  transition: all 0.3s ease; /* Smooth transition when the style changes */
+}

@@ -1,0 +1,36 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  page-navigation: true
+  title: "Allison Langer"
+
+  
+  page-footer:
+    left: "&copy; Copyright 2025, Allison Langer"
+    right: "This page is built with ❤️ and [Quarto](https://quarto.org/)."
+
+  navbar:
+    right:
+      - href: index.qmd
+        text: Home
+        
+      - href: publications.qmd
+        text: Publications
+        
+      - href: research.qmd
+        text: Research
+        
+      - href: resources.qmd
+        text: Resources
+        
+format:
+  html:
+    theme: sandstone
+    toc: false
+    linkcolor: "#9fc4db"
+      
+
+
+

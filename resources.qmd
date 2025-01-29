@@ -1,0 +1,33 @@
+---
+title: "Resources"
+editor: visual
+format: 
+  html:
+    toc: true
+    css: styles.css 
+---
+
+**Applying to Grad School in Psychology**
+
+-   [List](https://www.apadivisions.org/division-7/students-careers/graduate-programs) of graduate programs in developmental psychology
+-   <a href="files/MitchGradSchoolAdvice.pdf" target="_blank">Mitch's Uncensored Advice</a> for Applying To Grad School in Clinical Psychology
+
+<br>**Applying to the NSF Graduate Research Fellowship**
+
+-   Official NSF website: <https://www.nsfgrfp.org/>
+-   [Alex Lang's](https://www.alexhunterlang.com/nsf-fellowship) blog, which has additional resources and links
+-   [Google sheet](https://docs.google.com/spreadsheets/d/1xoezGhbtcpg3BvNdag2F5dTQM-Xl2EELUgAfG1eUg0s/edit?gid=0#gid=0) with links to successful application materials
+
+<br>**Mentoring Opportunities for Graduate Students**
+~\*Denotes personal involvement~
+
+-   [Letters to a Pre-Scientist](https://prescientist.org/)\*: a Pen Pal program that connects STEM professional to students around the country. Applications open in July/August.
+-   [Application Statement Feedback Program:](https://www.asfp.io/) provide feedback and editing support for research/personal statements of Psych PhD applicants. Applications open in October.
+-   [Rise Philadelphia](https://www.risephiladelphia.com/) - Virtual Tutoring
+-   [Big Brothers Big Sisters](https://www.independencebigs.org/) - One-on-one mentoring\*
+-   Psychology Graduate Students for Inclusivity ([PGSI](https://liberalarts.temple.edu/academics/departments-and-programs/psychology/diversity))\*
+-   Graduate mentoring for the Mid-Atlantic Diversity Scholars Program ([MINDS](https://sites.temple.edu/minds/)) & the Building Research Independence by Developing Goals and Experiences ([BRIDGE](https://sites.temple.edu/bridge/)) programs\*
+
+<br>**Mitigating Citation Bias in Psychology & Neuroscience**
+
+-   [Dr. Dani Bassett](https://complexsystemsupenn.com/diversity-1) at the University of Pennsylvania has shared tangible ways we can mitigate citation bias in our field. This includes [code](https://github.com/dalejn/cleanBib) to evaluate article references lists, a [Google Chrome extension](https://chromewebstore.google.com/detail/citation-transparency/cepnbdbhabaljgecaddglhhcgajphbcf?hl=en) that predicts gender of authors, and a Citation Diversity Statement [template](https://www.cell.com/neuron/fulltext/S0896-6273(20)30357-3?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS0896627320303573%3Fshowall%3Dtrue).
