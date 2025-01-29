@@ -8,7 +8,7 @@ format:
 css: custom.css 
 ---
 
-Here you can find more detail about my ongoing and previous work. Please reach out if you have any questions!
+Here you can find more detail about my ongoing and previous work. Please [reach out](mailto:allison.langer@temple.edu) if you have any questions!
 
 ## Human-Computer Interaction
 

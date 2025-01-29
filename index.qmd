@@ -25,7 +25,7 @@ about:
       href: https://github.com/allisonlanger
     - icon: file-earmark-person
       text: CV
-      href: Langer_CV.pdf
+      href: files/Langer_CV.pdf
 ---
 
 ::: {#hero-heading}
