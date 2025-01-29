@@ -3,9 +3,9 @@ title: "Resources"
 editor: visual
 format: 
   html:
-    toc: true
-    css: custom.css 
+    toc: false
     link-external-newwindow: true
+css: custom.css 
 ---
 
 **Applying to Grad School in Psychology**
