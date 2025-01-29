@@ -72,21 +72,6 @@ ul.task-list li input[type="checkbox"] {
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Open All Links in New Tab</title>
-<script>
-  window.onload = function() {
-    // Select all links on the page
-    const links = document.querySelectorAll('a');
-
-    // Loop through each link and set target="_blank"
-    links.forEach(link => {
-      // Check if the link is an external link (optional)
-      if (link.hostname !== window.location.hostname) {
-        link.setAttribute('target', '_blank');
-        link.setAttribute('rel', 'noopener noreferrer');  // Security best practice
-      }
-    });
-  };
-</script>
 </head>
 
 <body class="nav-fixed">
@@ -287,6 +272,40 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         }
       }
     }
+    // Function to check if the link is internal or external
+function isInternal(url) {
+  const currentDomain = window.location.hostname;
+  const linkDomain = new URL(url).hostname;
+  return currentDomain === linkDomain;  // Returns true for internal links
+}
+
+// Wait for the DOM to load completely before executing
+document.addEventListener("DOMContentLoaded", function() {
+  // Select all anchor tags excluding certain classes and elements
+  var links = document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+
+  // Loop through each link
+  for (var i = 0; i < links.length; i++) {
+    const link = links[i];
+    
+    // Check if the link is external
+    if (!isInternal(link.href)) {
+      
+      // Restore original href if it was modified by other scripts
+      if (link.dataset.originalHref !== undefined) {
+        link.href = link.dataset.originalHref;
+      }
+
+      // Set target="_blank" to open the link in a new tab
+      link.setAttribute("target", "_blank");
+
+      // Set rel="noopener" for security if rel is not already set
+      if (link.getAttribute("rel") === null) {
+        link.setAttribute("rel", "noopener");
+      }
+    }
+  }
+});
   function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
