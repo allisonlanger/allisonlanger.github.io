@@ -5,7 +5,7 @@ format:
   html:
     theme: sandstone
     toc: true
-    css: styles.css 
+    css: custom.css 
 about:
   id: hero-heading
   template: trestles

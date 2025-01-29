@@ -4,7 +4,7 @@ editor: visual
 format: 
   html:
     toc: true
-    css: styles.css 
+    css: custom.css 
 ---
 **Applying to Grad School in Psychology**
 
