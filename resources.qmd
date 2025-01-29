@@ -5,6 +5,7 @@ format:
   html:
     toc: true
     css: custom.css 
+    link-external-newwindow: true
 ---
 
 **Applying to Grad School in Psychology**

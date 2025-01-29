@@ -4,6 +4,7 @@ editor: visual
 format: 
   html:
     css: custom.css 
+    link-external-newwindow: true
 ---
 
 ```{=html}
