@@ -49,7 +49,7 @@ format:
 
 [**Child-Robot Interactions (CRI)**]{.underline}
 
-**Langer, A.,** Marshall, P. J., & Levy-Tzedek, S. (2023). Ethical Considerations in Child-Robot Interactions. *Neuroscience & Biobehavioral Reviews*, 105230. \|  <a href="https://www.sciencedirect.com/science/article/pii/S014976341930199X" style="text-decoration:none" class="btn btn-info btn-xs">Link</a> <br>
+**Langer, A.,** Marshall, P. J., & Levy-Tzedek, S. (2023). Ethical Considerations in Child-Robot Interactions. *Neuroscience & Biobehavioral Reviews*, 105230. \|  <a href="https://www.sciencedirect.com/science/article/pii/S0149763423001999#:~:text=Sharkey%20and%20Sharkey%20(2020)%20argue,of%20interactions%20with%20human%20beings." style="text-decoration:none" class="btn btn-info btn-xs">Link</a> <br>
 
 Yang, Y., **Langer, A.,** Howard, L., Marshall, P. J., & Wilson, J. R. (2023). Towards an Ontology for Generating Behaviors for Socially Assistive Robots Helping Young Children. *Proceedings of the Association of Advancement of Artificial Intelligence* (Vol. 2, No. 1, pp. 213-218). \|  <a href="https://ojs.aaai.org/index.php/AAAI-SS/article/view/27674" style="text-decoration:none" class="btn btn-info btn-xs">Link</a> <br>
 
