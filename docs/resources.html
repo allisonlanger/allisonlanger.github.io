@@ -69,6 +69,24 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="custom.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Open All Links in New Tab</title>
+<script>
+  window.onload = function() {
+    // Select all links on the page
+    const links = document.querySelectorAll('a');
+
+    // Loop through each link and set target="_blank"
+    links.forEach(link => {
+      // Check if the link is an external link (optional)
+      if (link.hostname !== window.location.hostname) {
+        link.setAttribute('target', '_blank');
+        link.setAttribute('rel', 'noopener noreferrer');  // Security best practice
+      }
+    });
+  };
+</script>
 </head>
 
 <body class="nav-fixed">
