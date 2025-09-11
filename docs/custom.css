@@ -82,21 +82,57 @@ ul li {
   text-decoration: underline; /* underline on hover for clarity */
 }
 
-#hero-heading {
-  display: flex;               /* turn children into flex items */
-  align-items: center;         /* vertical centering */
-  justify-content: space-between; /* space between left and right */
-  padding: 40px;
-  background-color: #eeeeee;   /* light gray background */
-  border-radius: 10px;
+/* Responsive layout for hero/about section */
+.about-entity {
+  display: flex;
+  align-items: center;       /* vertically center text with image */
+  gap: 2em;                  /* space between image and text */
+  flex-wrap: wrap;           /* allows wrapping on small screens */
+  padding: 20px;             /* optional spacing around section */
+  background-color: #eeeeee; /* subtle light gray background */
+  border-radius: 10px;       /* rounded corners */
 }
 
-#hero-heading .left-text {
-  flex: 1;                     /* allow text to grow */
-  padding-right: 20px;         /* spacing from image */
+/* Image styling */
+.about-image {
+  max-width: 20em;           /* keeps original size on desktop */
+  width: 100%;               /* scales down on smaller screens */
+  height: auto;
+  flex-shrink: 0;            /* prevents image from shrinking too small */
 }
 
-#hero-heading .right-image {
-  flex: 1;                     /* allow image to grow */
-  text-align: right;           /* align image to right */
+/* Text container styling */
+#title-block-header {
+  flex: 1;                   /* text takes remaining space */
+}
+
+/* Optional: spacing for links under the text */
+.about-links {
+  margin-top: 1em;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5em;
+}
+
+/* Mobile-specific adjustments */
+@media (max-width: 768px) {
+  .about-entity {
+      flex-direction: column;   /* stack image on top of text */
+      align-items: center;      /* center everything */
+      text-align: center;       /* center text */
+  }
+
+  #title-block-header {
+      flex: unset;              /* remove flex stretch on mobile */
+      width: 100%;              /* take full width */
+  }
+
+  .about-image {
+      max-width: 15em;          /* smaller image on mobile */
+      margin-bottom: 1em;       /* spacing below image */
+  }
+
+  .about-links {
+      justify-content: center;  /* center links under text */
+  }
 }
