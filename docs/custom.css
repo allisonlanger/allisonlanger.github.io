@@ -48,3 +48,36 @@ ul li {
   z-index: 100; /* Keeps the TOC on top of other content */
   transition: all 0.3s ease; /* Smooth transition when the style changes */
 }
+
+/* Research section styling */
+.level3 {
+  margin: 40px 0;             /* space above and below the section */
+  padding: 20px;              /* inner padding */
+  background-color: #f9f9f9;  /* subtle background to separate section */
+  border-radius: 10px;        /* rounded corners */
+}
+
+.level3 h3 {
+  font-size: 1.8em;           /* slightly larger heading */
+  font-weight: bold;
+  color: #2c3e50;             /* dark blue-gray */
+  margin-bottom: 15px;
+}
+
+.level3 p {
+  font-size: 1.05em;          /* readable paragraph text */
+  line-height: 1.6;           /* spacing between lines */
+  color: #34495e;             /* softer text color */
+  margin-bottom: 15px;
+}
+
+.level3 a {
+  color: #29abe0;             /* match your existing link color */
+  text-decoration: none;       /* no underline */
+  font-weight: 500;
+}
+
+.level3 a:hover {
+  color: #9fc4db;             /* match your existing hover color */
+  text-decoration: underline; /* underline on hover for clarity */
+}
