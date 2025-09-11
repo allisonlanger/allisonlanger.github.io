@@ -81,3 +81,22 @@ ul li {
   color: #9fc4db;             /* match your existing hover color */
   text-decoration: underline; /* underline on hover for clarity */
 }
+
+#hero-heading {
+  display: flex;               /* turn children into flex items */
+  align-items: center;         /* vertical centering */
+  justify-content: space-between; /* space between left and right */
+  padding: 40px;
+  background-color: #eeeeee;   /* light gray background */
+  border-radius: 10px;
+}
+
+#hero-heading .left-text {
+  flex: 1;                     /* allow text to grow */
+  padding-right: 20px;         /* spacing from image */
+}
+
+#hero-heading .right-image {
+  flex: 1;                     /* allow image to grow */
+  text-align: right;           /* align image to right */
+}
