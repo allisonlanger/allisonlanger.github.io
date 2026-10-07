@@ -13,7 +13,7 @@ about:
   links:
     - icon: envelope
       text: Email
-      href: mailto:allison.langer@temple.edu 
+      href: mailto:alanger@sas.upenn.edu
     - icon: google scholar
       text: Google Scholar
       href: https://scholar.google.com/citations?hl=en&view_op=list_works&gmla=AGd7smG8jGwpGP0QntRuPt8_iJ_HQUfuenSmtKGkFOmjxg3XhxDAf7HlN7jJbkQxucrFEhMP5sUYndgfmDv9dA&user=J0tVJ5wAAAAJ
@@ -25,15 +25,15 @@ about:
       href: https://github.com/allisonlanger
     - icon: file-earmark-person
       text: CV
-      href: files/Langer_CV.pdf
+      href: https://drive.google.com/file/d/1I8_2PMPDu0SCWnIWaeUYlZMENq7NOtFM/view
 ---
 
 ::: {#hero-heading}
-Hi, I'm Allison! I'm a PhD student in Developmental Psychology at Temple University with specializations in developmental psychopathology and quantitative research methods.
+Hi, I'm Allison! I'm a developmental psychologist and SNF Paideia-Provost Postdoctoral Fellow at the University of Pennsylvania. 
 
 ### My research lies at the intersection of psychology and technology.
 
-Specifically, I study **human-computer interaction**, with an emphasis on children's **perception** of generative artificial intelligence (AI), the **long-term effects** and **individual predictors** of smartphone and social media use across development, and the use of motion capture technology as a **scalable diagnostic tool.**
+Specifically, I study how social technologies, like digital media, social robots, and AI chatbots, shape children's and adolescents' development. My current work examines adolescents' AI chatbot use, its links to self-regulation, and AI-literacy interventions that support adaptive use. Previously, as an Impact Fellow at [Children and Screens](https://www.childrenandscreens.com/), I translated research on social technologies into resources for families and policymakers.
 
-My work is funded by the National Science Foundation Graduate Research Fellowship. For info about applying to this fellowship, see [resources](resources.qmd).
+My graduate work was funded by the National Science Foundation Graduate Research Fellowship. For info about applying to this fellowship, see [resources](resources.qmd).
 :::

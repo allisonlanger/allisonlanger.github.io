@@ -16,7 +16,9 @@ Here you can find more detail about my ongoing and previous work. Please [reach 
 ::: {layout="[1, 3]" layout-valign="center"}
 ![](images/chatbot.png){width="150px"}
 
-As an SNF Paideia-Provost Postdoctoral Fellow at the University of Pennsylvania, I study how adolescents use AI chatbots, how that use relates to self-regulation, and how AI-literacy interventions can support adaptive use. As a Children and Screens Impact Fellow, I reviewed national surveys of adolescent AI use and built a database of these reports. I also served as scientific editor for iRAISE's 2026 mapping of generative AI's impacts on child development.
+I'm currently an [SNF Paideia-Provost Postdoctoral Fellow](https://snfpaideia.upenn.edu/people/allison-langer/) at the University of Pennsylvania, where I study how children's and adolescents' interactions with emerging technologies influence their development and well-being. At Penn, I'm examining how individual differences shape teens' use of artificial intelligence (AI) chatbots, and how AI-literacy-based interventions may encourage adaptive use.
+
+I'm committed to translating research on digital media use into evidence-based resources for policymakers, educators, and families. I recently completed an Impact Fellowship at [Children and Screens: Institute of Digital Media and Child Development](https://www.childrenandscreens.org/), and I contribute to the International Research-driven Alliance for AI Serving Every Child (iRAISE) coalition to promote developmentally aligned AI innovation and governance.
 :::
 
 ## Smartphone and Social Media Use Across Development
@@ -24,7 +26,7 @@ As an SNF Paideia-Provost Postdoctoral Fellow at the University of Pennsylvania,
 ::: {layout="[1, 3]" layout-valign="center"}
 ![](images/LITE.png){width="150px"}
 
-My dissertation examined how smartphone and social media use relate to the development of self-regulatory control from childhood through adolescence, using behavioral and neuroimaging (fMRI and DTI) data. Results from node-wise fMRI and DTI analyses were presented at Flux: The Society for Developmental Cognitive Neuroscience in 2026.
+My dissertation examined how smartphone and social media use relate to the development of self-regulatory control from childhood through adolescence, using behavioral and neuroimaging (fMRI) data. Results from node-wise fMRI and DTI analyses were presented at Flux: The Society for Developmental Cognitive Neuroscience in 2026.
 :::
 
 ## Human-Computer Interaction
